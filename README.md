@@ -1,1 +1,3 @@
-# Configuracion-DNS
+# Configuración DNS
+
+![dns](img/dns.webp)
