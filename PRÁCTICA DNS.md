@@ -12,9 +12,9 @@ Ahí añadimos lo siguiente:
 
 Creamos la primera zona con el nombre de nuestro dominio, tipo master porque es el principal y la ruta de bind, añadiendo db. y el nombre del dominio.
 
-La siguiente zona es OPCIONAL (por eso está comentada) esta vez lleva de nombre la red al revés \+ .in-addr.arpa, en este caso sería 26.172.in-addr.arpa.
+La siguiente zona es OPCIONAL (por eso está comentada) esta vez lleva de nombre la red al revés + .in-addr.arpa, en este caso sería 26.172.in-addr.arpa.
 
-A continuación, queremos volcar lo que hay en el archivo /etc/bind/db.local en un archivo de nuestro dominio, para modificarlo: cp /etc/bind/db.local /etc/bind/db.dominiobea.org
+A continuación, queremos volcar lo que hay en el archivo **/etc/bind/db.local** en un archivo de nuestro dominio, para modificarlo: **cp /etc/bind/db.local /etc/bind/db.dominiobea.org**
 
 ![2](img/2.png)
 
@@ -40,7 +40,7 @@ Quedaría: dig @172.26.16.10 www.dominiobea.org
 
 Ahora vamos a configurarlo a la inversa.
 
-Volvemos a abrir el archivo /etc/bind/named.conf.local y descomentamos las líneas. 
+Volvemos a abrir el archivo **/etc/bind/named.conf.local** y descomentamos las líneas. 
 
 ![5](img/5.png)
 
