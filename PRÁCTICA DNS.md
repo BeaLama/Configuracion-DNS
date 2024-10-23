@@ -1,4 +1,4 @@
-**CONFIGURACIÓN DE UN SERVIDOR DNS MAESTRO**
+# CONFIGURACIÓN DE UN SERVIDOR DNS MAESTRO
 
 Queremos configurar un DNS.
 
@@ -51,7 +51,7 @@ Hecho esto ya tiene que salir.
 
 ![][image8]
 
-**CONFIGURACIÓN DE UN SERVIDOR DNS ESCLAVO**
+# CONFIGURACIÓN DE UN SERVIDOR DNS ESCLAVO
 
 **Creamos una máquina Debian nueva.**
 
